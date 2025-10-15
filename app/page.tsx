@@ -7,6 +7,36 @@ export default function Home() {
       <p className="mb-6">Welcome to my portfolio! Explore my work below.</p>
 
       <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">Latest Projects</h2>
+        <div className="bg-white p-4 rounded shadow">
+          <h3 className="text-xl font-bold mb-1">Python + React Test Site</h3>
+          <p className="text-sm text-gray-600 mb-2">
+            Limited API due to subscription fees (Render deployed)
+          </p>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>
+              <a
+                href="https://nba-profiles.onrender.com"
+                target="_blank"
+                className="text-blue-600 underline"
+              >
+                Static Site – nba-profiles.onrender.com
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://nba-backend-qud3.onrender.com"
+                target="_blank"
+                className="text-blue-600 underline"
+              >
+                Web Service – nba-backend-qud3.onrender.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">GitHub Repositories</h2>
         <a
           href="https://github.com/zenohj?tab=repositories"
